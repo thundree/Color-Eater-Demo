@@ -17,3 +17,6 @@ Music/*.import
 ScreenShots/*.import
 Sound-Effects/*.import
 Sprites/*.import
+
+android/
+build/

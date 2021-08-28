@@ -1,0 +1,7 @@
+
+Debug Keys
+keytool -keyalg RSA -genkeypair -alias androiddebugkey -keypass android -keystore debug.keystore -storepass android -dname "CN=Android Debug,O=Android,C=US" -validity 9999 -deststoretype pkcs12
+
+
+Production Keys
+keytool -v -genkey -keystore mygame.keystore -alias mygame -keyalg RSA -validity 10000
